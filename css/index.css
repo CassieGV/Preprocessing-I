@@ -211,7 +211,8 @@ header h3 {
   padding: 2%;
 }
 .Skills li {
-  color: hotpink margin-left: 5%;;
+  color: hotpink 
+  margin-left 5%;
 }
 .Edu h4 {
   color: purple;
