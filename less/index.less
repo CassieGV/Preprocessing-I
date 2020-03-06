@@ -57,3 +57,22 @@ html, body {
     height: 100%;
 }
 
+@colorOne: purple;
+@colorTwo: hotpink;
+
+// .center() {
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// }
+
+header {
+	.center();
+	flex-direction: column;
+	h1 {
+		color: @colorOne;
+	}
+	h3 {
+		color: @colorTwo;
+	}
+}
