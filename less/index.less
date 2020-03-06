@@ -73,9 +73,17 @@ h3 {
 h4 {
 	font-size: 30px;
 }
+h5 {
+	font-size: 28px;
+}
 p {
 	font-size: 20px;
 	line-height: 1.8;
+}
+li {
+	font-size: 20px;
+	line-height: 2.2;
+	margin-left: 15%;
 }
 
 @colorOne: purple;
@@ -84,6 +92,12 @@ p {
 .center() {
 	justify-content: center;
 	align-items: center;
+}
+.heading() {
+	padding: 2%;
+}
+.text() {
+	margin-left: 5%;
 }
 
 header {
@@ -110,11 +124,12 @@ header {
 .About {
 	h4 {
 		color: @colorOne;
-		padding: 2%;
+		.heading();
 	}
 	p {
 		margin-left: 5%;
 		width: 30%;
+		.text();
 	}
 	.pair {
 		display: flex;
@@ -125,4 +140,40 @@ header {
 		width: 300px;
 		margin-left: 25%;
 	}
+}
+
+.Skills {
+	h4 {
+		color: @colorOne;
+		.heading()
+	}
+	li {
+		color: @colorTwo
+		.text()
+	}
+}
+
+.Edu {
+	h4 {
+		color: @colorOne;
+	}
+	h5 {
+		color: @colorOne;
+	}
+	p {
+		color: @colorTwo;
+	}
+}
+
+.past {
+	h4 {
+		color: @colorOne;
+	}
+	li {
+		color: @colorTwo;
+	}
+}
+
+footer {
+	center();
 }

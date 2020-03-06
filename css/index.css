@@ -155,9 +155,17 @@ h3 {
 h4 {
   font-size: 30px;
 }
+h5 {
+  font-size: 28px;
+}
 p {
   font-size: 20px;
   line-height: 1.8;
+}
+li {
+  font-size: 20px;
+  line-height: 2.2;
+  margin-left: 15%;
 }
 header {
   display: flex;
@@ -186,8 +194,8 @@ header h3 {
   padding: 2%;
 }
 .About p {
-  margin-left: 5%;
   width: 30%;
+  margin-left: 5%;
 }
 .About .pair {
   display: flex;
@@ -197,4 +205,20 @@ header h3 {
   height: auto;
   width: 300px;
   margin-left: 25%;
+}
+.Skills h4 {
+  color: purple;
+  padding: 2%;
+}
+.Skills li {
+  color: hotpink margin-left: 5%;;
+}
+.Edu h4 {
+  color: purple;
+}
+.Edu h5 {
+  color: purple;
+}
+.Edu p {
+  color: hotpink;
 }
