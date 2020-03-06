@@ -134,13 +134,67 @@ html,
 body {
   height: 100%;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Oxanium';
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 35px;
+}
+h4 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+  line-height: 1.8;
+}
 header {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7%;
+}
+header .person {
+  height: 250px;
+  width: auto;
+  border-radius: 40px;
 }
 header h1 {
   color: purple;
+  padding: 3%;
 }
 header h3 {
   color: hotpink;
+  padding: 1%;
+  border: 1px solid purple;
+  border-radius: 10px;
+}
+.About h4 {
+  color: purple;
+  padding: 2%;
+}
+.About p {
+  margin-left: 5%;
+  width: 30%;
+}
+.About .pair {
+  display: flex;
+  justify-content: baseline;
+}
+.About .ducky {
+  height: auto;
+  width: 300px;
+  margin-left: 25%;
 }

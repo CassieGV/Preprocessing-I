@@ -56,23 +56,73 @@ table {
 html, body {
     height: 100%;
 }
+h1, h2, h3, h4, h5 {
+    font-family: 'Oxanium';
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+h1{
+	font-size: 50px;
+}
+h2 {
+	font-size: 45px;
+}
+h3 {
+	font-size: 35px;
+}
+h4 {
+	font-size: 30px;
+}
+p {
+	font-size: 20px;
+	line-height: 1.8;
+}
 
 @colorOne: purple;
 @colorTwo: hotpink;
 
-// .center() {
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: center;
-// }
+.center() {
+	justify-content: center;
+	align-items: center;
+}
 
 header {
-	.center();
+	display: flex;
 	flex-direction: column;
+	.center();
+	padding: 7%;
+	.person {
+		height: 250px;
+		width: auto;
+		border-radius: 40px;
+	}
 	h1 {
 		color: @colorOne;
+		padding: 3%;
 	}
 	h3 {
 		color: @colorTwo;
+		padding: 1%;
+		border: 1px solid @colorOne;
+		border-radius: 10px;
+	}
+}
+.About {
+	h4 {
+		color: @colorOne;
+		padding: 2%;
+	}
+	p {
+		margin-left: 5%;
+		width: 30%;
+	}
+	.pair {
+		display: flex;
+		justify-content: baseline;
+	}
+	.ducky {
+		height: auto;
+		width: 300px;
+		margin-left: 25%;
 	}
 }
